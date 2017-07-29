@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 6/14/2017 5:12:02 PM-->
+<Tiled2Unity version="1.0.11.2">
+  <AssignMaterial mesh="mesh_0001" material="yx's tileset1" />
+  <AssignMaterial mesh="mesh_0002" material="yx's tileset1" />
+  <AssignMaterial mesh="mesh_0003" material="yx's tileset1" />
+  <AssignMaterial mesh="mesh_0004" material="yx's tileset1" />
+  <Prefab name="battlemap0" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="4" numTilesWide="15" numTilesHigh="15" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="240" mapHeightInPixels="240" backgroundColor="#808080">
+    <GameObject name="Terrain" x="0" y="0" z="0">
+      <TileLayer opacity="1" offsetX="0" offsetY="0" />
+      <GameObject name="yx's tileset1" copy="mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="objGround" x="0" y="0" z="-0.06666667">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="GroundTile" x="0" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="82" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="83" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="84" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="85" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="86" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="87" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="88" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="89" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="90" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="0" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="91" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="92" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="93" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="94" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="95" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="96" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="97" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="98" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="99" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="100" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-16" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="101" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="16" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="102" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="103" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="104" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="105" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="106" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="107" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="108" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="109" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="110" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-32" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="111" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="32" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="112" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="113" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="114" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="115" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="116" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="117" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="118" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="119" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="120" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-48" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="121" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="48" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="122" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="123" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="124" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="125" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="126" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="127" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="128" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="129" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="130" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-64" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="131" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="64" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="132" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="133" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="134" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="135" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="136" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="137" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="138" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="139" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="140" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-80" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="141" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="80" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="142" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="143" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="144" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="145" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="146" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="147" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="148" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="149" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="150" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-96" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="151" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="96" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="152" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="153" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="154" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="155" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="156" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="157" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="158" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="159" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="160" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-112" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="161" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="112" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="162" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="163" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="164" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="165" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="166" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="167" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="168" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="169" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="170" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-128" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="171" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="172" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="173" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="174" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="175" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="176" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="177" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="178" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="179" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="180" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-144" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="181" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="0" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="182" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="0" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="16" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="183" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="16" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="32" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="184" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="32" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="48" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="185" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="48" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="64" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="186" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="64" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="80" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="187" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="80" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="96" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="188" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="96" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="112" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="189" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="112" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="128" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="190" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="128" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+      <GameObject name="GroundTile" x="144" y="-160" rotation="0" layer="">
+        <RectangleObjectComponent tmx-object-id="191" tmx-object-name="GroundTile" tmx-object-type="" tmx-object-x="144" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="16" height="16" />
+      </GameObject>
+    </GameObject>
+    <GameObject name="base" x="0" y="0" z="-0.13333334">
+      <TileLayer opacity="1" offsetX="0" offsetY="0" />
+      <GameObject name="yx's tileset1" copy="mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>4,-2 2,-1 15,-1 15,-2 143,-2 143,0 0,0 0,-7</Path>
+          <Path>160,0 156,-2 156,0 144,0 144,-2 155,-2 159,-7</Path>
+          <Path>6,-26 5,-23 0,-16 0,-32</Path>
+          <Path>160,-16 154,-22 153,-24 155,-31 160,-32</Path>
+          <Path>160,-32 154,-38 153,-40 155,-47 160,-48</Path>
+          <Path>6,-74 5,-71 0,-64 0,-80</Path>
+          <Path>6,-90 5,-87 0,-80 0,-96</Path>
+          <Path>6,-106 5,-103 0,-96 0,-112</Path>
+          <Path>160,-112 154,-118 153,-120 155,-127 160,-128</Path>
+          <Path>160,-128 154,-134 153,-136 155,-143 160,-144</Path>
+          <Path>6,-154 5,-151 0,-144 0,-160</Path>
+          <Path>144,-175 159,-175 159,-167 155,-173 144,-173 144,-174 3,-174 4,-173 0,-167 0,-176 1,-175 15,-175 15,-176 144,-176</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+    <GameObject name="props2" x="0" y="0" z="-0.200000018">
+      <TileLayer opacity="1" offsetX="0" offsetY="0" />
+      <GameObject name="yx's tileset1" copy="mesh_0003" sortingLayerName="" sortingOrder="2" opacity="1" />
+    </GameObject>
+    <GameObject name="props" x="0" y="0" z="-0.266666681">
+      <TileLayer opacity="1" offsetX="0" offsetY="0" />
+      <GameObject name="yx's tileset1" copy="mesh_0004" sortingLayerName="" sortingOrder="3" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>47,-32 32,-32 32,-42 47,-42</Path>
+          <Path>63,-32 48,-32 48,-42 63,-42</Path>
+          <Path>111,-32 96,-32 96,-42 111,-42</Path>
+          <Path>127,-32 112,-32 112,-42 127,-42</Path>
+          <Path>27,-47 16,-47 16,-95 27,-95</Path>
+          <Path>143,-47 131,-47 131,-63 143,-63</Path>
+          <Path>143,-79 131,-79 131,-111 143,-111</Path>
+          <Path>47,-132 32,-132 32,-143 47,-143</Path>
+          <Path>95,-132 80,-132 80,-143 95,-143</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="battlemap0.obj">IyBXYXZlZnJvbnQgT0JKIGZpbGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYnkgVGlsZWQyVW5pdHkNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSAyNDIpDQp2IDAgLTE2IC0wLjA2NjY2NjY3DQp2IC0xNiAtMTYgLTAuMDY2NjY2NjcNCnYgLTE2IDAgLTAuMDY2NjY2NjcNCnYgMCAwIC0wLjA2NjY2NjY3DQp2IC0zMiAtMTYgLTAuMDY2NjY2NjcNCnYgLTMyIDAgLTAuMDY2NjY2NjcNCnYgLTQ4IC0xNiAtMC4wNjY2NjY2Nw0KdiAtNDggMCAtMC4wNjY2NjY2Nw0KdiAtNjQgLTE2IC0wLjA2NjY2NjY3DQp2IC02NCAwIC0wLjA2NjY2NjY3DQp2IC04MCAtMTYgLTAuMDY2NjY2NjcNCnYgLTgwIDAgLTAuMDY2NjY2NjcNCnYgLTk2IC0xNiAtMC4wNjY2NjY2Nw0KdiAtOTYgMCAtMC4wNjY2NjY2Nw0KdiAtMTEyIC0xNiAtMC4wNjY2NjY2Nw0KdiAtMTEyIDAgLTAuMDY2NjY2NjcNCnYgLTEyOCAtMTYgLTAuMDY2NjY2NjcNCnYgLTEyOCAwIC0wLjA2NjY2NjY3DQp2IC0xNDQgLTE2IC0wLjA2NjY2NjY3DQp2IC0xNDQgMCAtMC4wNjY2NjY2Nw0KdiAtMTYwIC0xNiAtMC4wNjY2NjY2Nw0KdiAtMTYwIDAgLTAuMDY2NjY2NjcNCnYgMCAtMzIgLTAuMTMzMzMzMw0KdiAtMTYgLTMyIC0wLjEzMzMzMzMNCnYgLTE2IC0xNiAtMC4xMzMzMzMzDQp2IDAgLTE2IC0wLjEzMzMzMzMNCnYgLTMyIC0zMiAtMC4xMzMzMzMzDQp2IC0zMiAtMTYgLTAuMTMzMzMzMw0KdiAtNDggLTMyIC0wLjEzMzMzMzMNCnYgLTQ4IC0xNiAtMC4xMzMzMzMzDQp2IC02NCAtMzIgLTAuMTMzMzMzMw0KdiAtNjQgLTE2IC0wLjEzMzMzMzMNCnYgLTgwIC0zMiAtMC4xMzMzMzMzDQp2IC04MCAtMTYgLTAuMTMzMzMzMw0KdiAtOTYgLTMyIC0wLjEzMzMzMzMNCnYgLTk2IC0xNiAtMC4xMzMzMzMzDQp2IC0xMTIgLTMyIC0wLjEzMzMzMzMNCnYgLTExMiAtMTYgLTAuMTMzMzMzMw0KdiAtMTI4IC0zMiAtMC4xMzMzMzMzDQp2IC0xMjggLTE2IC0wLjEzMzMzMzMNCnYgLTE0NCAtMzIgLTAuMTMzMzMzMw0KdiAtMTQ0IC0xNiAtMC4xMzMzMzMzDQp2IC0xNjAgLTMyIC0wLjEzMzMzMzMNCnYgLTE2MCAtMTYgLTAuMTMzMzMzMw0KdiAwIC00OCAtMC4yDQp2IC0xNiAtNDggLTAuMg0KdiAtMTYgLTMyIC0wLjINCnYgMCAtMzIgLTAuMg0KdiAtMzIgLTQ4IC0wLjINCnYgLTMyIC0zMiAtMC4yDQp2IC00OCAtNDggLTAuMg0KdiAtNDggLTMyIC0wLjINCnYgLTY0IC00OCAtMC4yDQp2IC02NCAtMzIgLTAuMg0KdiAtODAgLTQ4IC0wLjINCnYgLTgwIC0zMiAtMC4yDQp2IC05NiAtNDggLTAuMg0KdiAtOTYgLTMyIC0wLjINCnYgLTExMiAtNDggLTAuMg0KdiAtMTEyIC0zMiAtMC4yDQp2IC0xMjggLTQ4IC0wLjINCnYgLTEyOCAtMzIgLTAuMg0KdiAtMTQ0IC00OCAtMC4yDQp2IC0xNDQgLTMyIC0wLjINCnYgLTE2MCAtNDggLTAuMg0KdiAtMTYwIC0zMiAtMC4yDQp2IDAgLTY0IC0wLjI2NjY2NjcNCnYgLTE2IC02NCAtMC4yNjY2NjY3DQp2IC0xNiAtNDggLTAuMjY2NjY2Nw0KdiAwIC00OCAtMC4yNjY2NjY3DQp2IC0zMiAtNjQgLTAuMjY2NjY2Nw0KdiAtMzIgLTQ4IC0wLjI2NjY2NjcNCnYgLTQ4IC02NCAtMC4yNjY2NjY3DQp2IC00OCAtNDggLTAuMjY2NjY2Nw0KdiAtNjQgLTY0IC0wLjI2NjY2NjcNCnYgLTY0IC00OCAtMC4yNjY2NjY3DQp2IC04MCAtNjQgLTAuMjY2NjY2Nw0KdiAtODAgLTQ4IC0wLjI2NjY2NjcNCnYgLTk2IC02NCAtMC4yNjY2NjY3DQp2IC05NiAtNDggLTAuMjY2NjY2Nw0KdiAtMTEyIC02NCAtMC4yNjY2NjY3DQp2IC0xMTIgLTQ4IC0wLjI2NjY2NjcNCnYgLTEyOCAtNjQgLTAuMjY2NjY2Nw0KdiAtMTI4IC00OCAtMC4yNjY2NjY3DQp2IC0xNDQgLTY0IC0wLjI2NjY2NjcNCnYgLTE0NCAtNDggLTAuMjY2NjY2Nw0KdiAtMTYwIC02NCAtMC4yNjY2NjY3DQp2IC0xNjAgLTQ4IC0wLjI2NjY2NjcNCnYgMCAtODAgLTAuMzMzMzMzMw0KdiAtMTYgLTgwIC0wLjMzMzMzMzMNCnYgLTE2IC02NCAtMC4zMzMzMzMzDQp2IDAgLTY0IC0wLjMzMzMzMzMNCnYgLTMyIC04MCAtMC4zMzMzMzMzDQp2IC0zMiAtNjQgLTAuMzMzMzMzMw0KdiAtNDggLTgwIC0wLjMzMzMzMzMNCnYgLTQ4IC02NCAtMC4zMzMzMzMzDQp2IC02NCAtODAgLTAuMzMzMzMzMw0KdiAtNjQgLTY0IC0wLjMzMzMzMzMNCnYgLTgwIC04MCAtMC4zMzMzMzMzDQp2IC04MCAtNjQgLTAuMzMzMzMzMw0KdiAtOTYgLTgwIC0wLjMzMzMzMzMNCnYgLTk2IC02NCAtMC4zMzMzMzMzDQp2IC0xMTIgLTgwIC0wLjMzMzMzMzMNCnYgLTExMiAtNjQgLTAuMzMzMzMzMw0KdiAtMTI4IC04MCAtMC4zMzMzMzMzDQp2IC0xMjggLTY0IC0wLjMzMzMzMzMNCnYgLTE0NCAtODAgLTAuMzMzMzMzMw0KdiAtMTQ0IC02NCAtMC4zMzMzMzMzDQp2IC0xNjAgLTgwIC0wLjMzMzMzMzMNCnYgLTE2MCAtNjQgLTAuMzMzMzMzMw0KdiAwIC05NiAtMC40DQp2IC0xNiAtOTYgLTAuNA0KdiAtMTYgLTgwIC0wLjQNCnYgMCAtODAgLTAuNA0KdiAtMzIgLTk2IC0wLjQNCnYgLTMyIC04MCAtMC40DQp2IC00OCAtOTYgLTAuNA0KdiAtNDggLTgwIC0wLjQNCnYgLTY0IC05NiAtMC40DQp2IC02NCAtODAgLTAuNA0KdiAtODAgLTk2IC0wLjQNCnYgLTgwIC04MCAtMC40DQp2IC05NiAtOTYgLTAuNA0KdiAtOTYgLTgwIC0wLjQNCnYgLTExMiAtOTYgLTAuNA0KdiAtMTEyIC04MCAtMC40DQp2IC0xMjggLTk2IC0wLjQNCnYgLTEyOCAtODAgLTAuNA0KdiAtMTQ0IC05NiAtMC40DQp2IC0xNDQgLTgwIC0wLjQNCnYgLTE2MCAtOTYgLTAuNA0KdiAtMTYwIC04MCAtMC40DQp2IDAgLTExMiAtMC40NjY2NjY3DQp2IC0xNiAtMTEyIC0wLjQ2NjY2NjcNCnYgLTE2IC05NiAtMC40NjY2NjY3DQp2IDAgLTk2IC0wLjQ2NjY2NjcNCnYgLTMyIC0xMTIgLTAuNDY2NjY2Nw0KdiAtMzIgLTk2IC0wLjQ2NjY2NjcNCnYgLTQ4IC0xMTIgLTAuNDY2NjY2Nw0KdiAtNDggLTk2IC0wLjQ2NjY2NjcNCnYgLTY0IC0xMTIgLTAuNDY2NjY2Nw0KdiAtNjQgLTk2IC0wLjQ2NjY2NjcNCnYgLTgwIC0xMTIgLTAuNDY2NjY2Nw0KdiAtODAgLTk2IC0wLjQ2NjY2NjcNCnYgLTk2IC0xMTIgLTAuNDY2NjY2Nw0KdiAtOTYgLTk2IC0wLjQ2NjY2NjcNCnYgLTExMiAtMTEyIC0wLjQ2NjY2NjcNCnYgLTExMiAtOTYgLTAuNDY2NjY2Nw0KdiAtMTI4IC0xMTIgLTAuNDY2NjY2Nw0KdiAtMTI4IC05NiAtMC40NjY2NjY3DQp2IC0xNDQgLTExMiAtMC40NjY2NjY3DQp2IC0xNDQgLTk2IC0wLjQ2NjY2NjcNCnYgLTE2MCAtMTEyIC0wLjQ2NjY2NjcNCnYgLTE2MCAtOTYgLTAuNDY2NjY2Nw0KdiAwIC0xMjggLTAuNTMzMzMzNA0KdiAtMTYgLTEyOCAtMC41MzMzMzM0DQp2IC0xNiAtMTEyIC0wLjUzMzMzMzQNCnYgMCAtMTEyIC0wLjUzMzMzMzQNCnYgLTMyIC0xMjggLTAuNTMzMzMzNA0KdiAtMzIgLTExMiAtMC41MzMzMzM0DQp2IC00OCAtMTI4IC0wLjUzMzMzMzQNCnYgLTQ4IC0xMTIgLTAuNTMzMzMzNA0KdiAtNjQgLTEyOCAtMC41MzMzMzM0DQp2IC02NCAtMTEyIC0wLjUzMzMzMzQNCnYgLTgwIC0xMjggLTAuNTMzMzMzNA0KdiAtODAgLTExMiAtMC41MzMzMzM0DQp2IC05NiAtMTI4IC0wLjUzMzMzMzQNCnYgLTk2IC0xMTIgLTAuNTMzMzMzNA0KdiAtMTEyIC0xMjggLTAuNTMzMzMzNA0KdiAtMTEyIC0xMTIgLTAuNTMzMzMzNA0KdiAtMTI4IC0xMjggLTAuNTMzMzMzNA0KdiAtMTI4IC0xMTIgLTAuNTMzMzMzNA0KdiAtMTQ0IC0xMjggLTAuNTMzMzMzNA0KdiAtMTQ0IC0xMTIgLTAuNTMzMzMzNA0KdiAtMTYwIC0xMjggLTAuNTMzMzMzNA0KdiAtMTYwIC0xMTIgLTAuNTMzMzMzNA0KdiAwIC0xNDQgLTAuNg0KdiAtMTYgLTE0NCAtMC42DQp2IC0xNiAtMTI4IC0wLjYNCnYgMCAtMTI4IC0wLjYNCnYgLTMyIC0xNDQgLTAuNg0KdiAtMzIgLTEyOCAtMC42DQp2IC00OCAtMTQ0IC0wLjYNCnYgLTQ4IC0xMjggLTAuNg0KdiAtNjQgLTE0NCAtMC42DQp2IC02NCAtMTI4IC0wLjYNCnYgLTgwIC0xNDQgLTAuNg0KdiAtODAgLTEyOCAtMC42DQp2IC05NiAtMTQ0IC0wLjYNCnYgLTk2IC0xMjggLTAuNg0KdiAtMTEyIC0xNDQgLTAuNg0KdiAtMTEyIC0xMjggLTAuNg0KdiAtMTI4IC0xNDQgLTAuNg0KdiAtMTI4IC0xMjggLTAuNg0KdiAtMTQ0IC0xNDQgLTAuNg0KdiAtMTQ0IC0xMjggLTAuNg0KdiAtMTYwIC0xNDQgLTAuNg0KdiAtMTYwIC0xMjggLTAuNg0KdiAwIC0xNjAgLTAuNjY2NjY2Nw0KdiAtMTYgLTE2MCAtMC42NjY2NjY3DQp2IC0xNiAtMTQ0IC0wLjY2NjY2NjcNCnYgMCAtMTQ0IC0wLjY2NjY2NjcNCnYgLTMyIC0xNjAgLTAuNjY2NjY2Nw0KdiAtMzIgLTE0NCAtMC42NjY2NjY3DQp2IC00OCAtMTYwIC0wLjY2NjY2NjcNCnYgLTQ4IC0xNDQgLTAuNjY2NjY2Nw0KdiAtNjQgLTE2MCAtMC42NjY2NjY3DQp2IC02NCAtMTQ0IC0wLjY2NjY2NjcNCnYgLTgwIC0xNjAgLTAuNjY2NjY2Nw0KdiAtODAgLTE0NCAtMC42NjY2NjY3DQp2IC05NiAtMTYwIC0wLjY2NjY2NjcNCnYgLTk2IC0xNDQgLTAuNjY2NjY2Nw0KdiAtMTEyIC0xNjAgLTAuNjY2NjY2Nw0KdiAtMTEyIC0xNDQgLTAuNjY2NjY2Nw0KdiAtMTI4IC0xNjAgLTAuNjY2NjY2Nw0KdiAtMTI4IC0xNDQgLTAuNjY2NjY2Nw0KdiAtMTQ0IC0xNjAgLTAuNjY2NjY2Nw0KdiAtMTQ0IC0xNDQgLTAuNjY2NjY2Nw0KdiAtMTYwIC0xNjAgLTAuNjY2NjY2Nw0KdiAtMTYwIC0xNDQgLTAuNjY2NjY2Nw0KdiAwIC0xNzYgLTAuNzMzMzMzMw0KdiAtMTYgLTE3NiAtMC43MzMzMzMzDQp2IC0xNiAtMTYwIC0wLjczMzMzMzMNCnYgMCAtMTYwIC0wLjczMzMzMzMNCnYgLTMyIC0xNzYgLTAuNzMzMzMzMw0KdiAtMzIgLTE2MCAtMC43MzMzMzMzDQp2IC00OCAtMTc2IC0wLjczMzMzMzMNCnYgLTQ4IC0xNjAgLTAuNzMzMzMzMw0KdiAtNjQgLTE3NiAtMC43MzMzMzMzDQp2IC02NCAtMTYwIC0wLjczMzMzMzMNCnYgLTgwIC0xNzYgLTAuNzMzMzMzMw0KdiAtODAgLTE2MCAtMC43MzMzMzMzDQp2IC05NiAtMTc2IC0wLjczMzMzMzMNCnYgLTk2IC0xNjAgLTAuNzMzMzMzMw0KdiAtMTEyIC0xNzYgLTAuNzMzMzMzMw0KdiAtMTEyIC0xNjAgLTAuNzMzMzMzMw0KdiAtMTI4IC0xNzYgLTAuNzMzMzMzMw0KdiAtMTI4IC0xNjAgLTAuNzMzMzMzMw0KdiAtMTQ0IC0xNzYgLTAuNzMzMzMzMw0KdiAtMTQ0IC0xNjAgLTAuNzMzMzMzMw0KdiAtMTYwIC0xNzYgLTAuNzMzMzMzMw0KdiAtMTYwIC0xNjAgLTAuNzMzMzMzMw0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDk2KQ0KdnQgMC44MzM0NTU0IDAuNjY2Nzg4Nw0KdnQgMC45MTY1NDQ2IDAuNjY2Nzg4Nw0KdnQgMC45MTY1NDQ2IDAuODMzMjExMg0KdnQgMC44MzM0NTU0IDAuODMzMjExMg0KdnQgMC43NTAxMjIxIDAuODMzNDU1NA0KdnQgMC44MzMyMTEyIDAuODMzNDU1NA0KdnQgMC44MzMyMTEyIDAuOTk5ODc3OQ0KdnQgMC43NTAxMjIxIDAuOTk5ODc3OQ0KdnQgMC44MzM0NTU0IDAuODMzNDU1NA0KdnQgMC45MTY1NDQ2IDAuODMzNDU1NA0KdnQgMC45MTY1NDQ2IDAuOTk5ODc3OQ0KdnQgMC44MzM0NTU0IDAuOTk5ODc3OQ0KdnQgMC45MTY3ODg4IDAuODMzNDU1NA0KdnQgMC45OTk4Nzc5IDAuODMzNDU1NA0KdnQgMC45OTk4Nzc5IDAuOTk5ODc3OQ0KdnQgMC45MTY3ODg4IDAuOTk5ODc3OQ0KdnQgMC43NTAxMjIxIDAuNjY2Nzg4Nw0KdnQgMC44MzMyMTEyIDAuNjY2Nzg4Nw0KdnQgMC44MzMyMTEyIDAuODMzMjExMg0KdnQgMC43NTAxMjIxIDAuODMzMjExMg0KdnQgMC45MTY3ODg4IDAuNjY2Nzg4Nw0KdnQgMC45OTk4Nzc5IDAuNjY2Nzg4Nw0KdnQgMC45OTk4Nzc5IDAuODMzMjExMg0KdnQgMC45MTY3ODg4IDAuODMzMjExMg0KdnQgMC43NTAxMjIxIDAuNTAwMTIyMQ0KdnQgMC44MzMyMTEyIDAuNTAwMTIyMQ0KdnQgMC44MzMyMTEyIDAuNjY2NTQ0Ng0KdnQgMC43NTAxMjIxIDAuNjY2NTQ0Ng0KdnQgMC44MzM0NTU0IDAuNTAwMTIyMQ0KdnQgMC45MTY1NDQ2IDAuNTAwMTIyMQ0KdnQgMC45MTY1NDQ2IDAuNjY2NTQ0Ng0KdnQgMC44MzM0NTU0IDAuNjY2NTQ0Ng0KdnQgMC45MTY3ODg4IDAuNTAwMTIyMQ0KdnQgMC45OTk4Nzc5IDAuNTAwMTIyMQ0KdnQgMC45OTk4Nzc5IDAuNjY2NTQ0Ng0KdnQgMC45MTY3ODg4IDAuNjY2NTQ0Ng0KdnQgMC4yNTAxMjIxIDAuMTY2Nzg4OA0KdnQgMC4zMzMyMTEzIDAuMTY2Nzg4OA0KdnQgMC4zMzMyMTEzIDAuMzMzMjExMg0KdnQgMC4yNTAxMjIxIDAuMzMzMjExMg0KdnQgMC4zMzM0NTU0IDAuMTY2Nzg4OA0KdnQgMC40MTY1NDQ2IDAuMTY2Nzg4OA0KdnQgMC40MTY1NDQ2IDAuMzMzMjExMg0KdnQgMC4zMzM0NTU0IDAuMzMzMjExMg0KdnQgMC44MzM0NTU0IDAuMzMzNDU1NA0KdnQgMC45MTY1NDQ2IDAuMzMzNDU1NA0KdnQgMC45MTY1NDQ2IDAuNDk5ODc3OQ0KdnQgMC44MzM0NTU0IDAuNDk5ODc3OQ0KdnQgMC42NjY3ODg4IDAuMzMzNDU1NA0KdnQgMC43NDk4Nzc5IDAuMzMzNDU1NA0KdnQgMC43NDk4Nzc5IDAuNDk5ODc3OQ0KdnQgMC42NjY3ODg4IDAuNDk5ODc3OQ0KdnQgMC4wODM0NTU0MSAwLjAwMDEyMjA3MDMNCnZ0IDAuMTY2NTQ0NiAwLjAwMDEyMjA3MDMNCnZ0IDAuMTY2NTQ0NiAwLjE2NjU0NDYNCnZ0IDAuMDgzNDU1NDEgMC4xNjY1NDQ2DQp2dCAwLjU4MzQ1NTQgMC4zMzM0NTU0DQp2dCAwLjY2NjU0NDYgMC4zMzM0NTU0DQp2dCAwLjY2NjU0NDYgMC40OTk4Nzc5DQp2dCAwLjU4MzQ1NTQgMC40OTk4Nzc5DQp2dCAwLjE2Njc4ODcgMC4xNjY3ODg4DQp2dCAwLjI0OTg3NzkgMC4xNjY3ODg4DQp2dCAwLjI0OTg3NzkgMC4zMzMyMTEyDQp2dCAwLjE2Njc4ODcgMC4zMzMyMTEyDQp2dCAwLjA4MzQ1NTQxIDAuMTY2Nzg4OA0KdnQgMC4xNjY1NDQ2IDAuMTY2Nzg4OA0KdnQgMC4xNjY1NDQ2IDAuMzMzMjExMg0KdnQgMC4wODM0NTU0MSAwLjMzMzIxMTINCnZ0IDAuMDAwMTIyMDcwMyAwLjE2Njc4ODgNCnZ0IDAuMDgzMjExMjcgMC4xNjY3ODg4DQp2dCAwLjA4MzIxMTI3IDAuMzMzMjExMg0KdnQgMC4wMDAxMjIwNzAzIDAuMzMzMjExMg0KdnQgMC4zMzM0NTU0IDAuMzMzNDU1NA0KdnQgMC40MTY1NDQ2IDAuMzMzNDU1NA0KdnQgMC40MTY1NDQ2IDAuNDk5ODc3OQ0KdnQgMC4zMzM0NTU0IDAuNDk5ODc3OQ0KdnQgMC4yNTAxMjIxIDAuMzMzNDU1NA0KdnQgMC4zMzMyMTEzIDAuMzMzNDU1NA0KdnQgMC4zMzMyMTEzIDAuNDk5ODc3OQ0KdnQgMC4yNTAxMjIxIDAuNDk5ODc3OQ0KdnQgMC42NjY3ODg4IDAuMTY2Nzg4OA0KdnQgMC43NDk4Nzc5IDAuMTY2Nzg4OA0KdnQgMC43NDk4Nzc5IDAuMzMzMjExMg0KdnQgMC42NjY3ODg4IDAuMzMzMjExMg0KdnQgMC4wODM0NTU0MSAwLjMzMzQ1NTQNCnZ0IDAuMTY2NTQ0NiAwLjMzMzQ1NTQNCnZ0IDAuMTY2NTQ0NiAwLjQ5OTg3NzkNCnZ0IDAuMDgzNDU1NDEgMC40OTk4Nzc5DQp2dCAwLjU4MzQ1NTQgMC4xNjY3ODg4DQp2dCAwLjY2NjU0NDYgMC4xNjY3ODg4DQp2dCAwLjY2NjU0NDYgMC4zMzMyMTEyDQp2dCAwLjU4MzQ1NTQgMC4zMzMyMTEyDQp2dCAwLjc1MDEyMjEgMC4xNjY3ODg4DQp2dCAwLjgzMzIxMTIgMC4xNjY3ODg4DQp2dCAwLjgzMzIxMTIgMC4zMzMyMTEyDQp2dCAwLjc1MDEyMjEgMC4zMzMyMTEyDQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBHcm91cHMgKENvdW50ID0gNCkNCgpnIG1lc2hfMDAwMQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCmYgMi8xLzEgNS8yLzEgNi8zLzEgMy80LzEKZiA1LzEvMSA3LzIvMSA4LzMvMSA2LzQvMQpmIDcvMS8xIDkvMi8xIDEwLzMvMSA4LzQvMQpmIDkvMS8xIDExLzIvMSAxMi8zLzEgMTAvNC8xCmYgMTEvMS8xIDEzLzIvMSAxNC8zLzEgMTIvNC8xCmYgMTMvMS8xIDE1LzIvMSAxNi8zLzEgMTQvNC8xCmYgMTUvMS8xIDE3LzIvMSAxOC8zLzEgMTYvNC8xCmYgMTcvMS8xIDE5LzIvMSAyMC8zLzEgMTgvNC8xCmYgMTkvMS8xIDIxLzIvMSAyMi8zLzEgMjAvNC8xCmYgMjMvMS8xIDI0LzIvMSAyNS8zLzEgMjYvNC8xCmYgMjQvMS8xIDI3LzIvMSAyOC8zLzEgMjUvNC8xCmYgMjcvMS8xIDI5LzIvMSAzMC8zLzEgMjgvNC8xCmYgMjkvMS8xIDMxLzIvMSAzMi8zLzEgMzAvNC8xCmYgMzEvMS8xIDMzLzIvMSAzNC8zLzEgMzIvNC8xCmYgMzMvMS8xIDM1LzIvMSAzNi8zLzEgMzQvNC8xCmYgMzUvMS8xIDM3LzIvMSAzOC8zLzEgMzYvNC8xCmYgMzcvMS8xIDM5LzIvMSA0MC8zLzEgMzgvNC8xCmYgMzkvMS8xIDQxLzIvMSA0Mi8zLzEgNDAvNC8xCmYgNDEvMS8xIDQzLzIvMSA0NC8zLzEgNDIvNC8xCmYgNDUvMS8xIDQ2LzIvMSA0Ny8zLzEgNDgvNC8xCmYgNDYvMS8xIDQ5LzIvMSA1MC8zLzEgNDcvNC8xCmYgNDkvMS8xIDUxLzIvMSA1Mi8zLzEgNTAvNC8xCmYgNTEvMS8xIDUzLzIvMSA1NC8zLzEgNTIvNC8xCmYgNTMvMS8xIDU1LzIvMSA1Ni8zLzEgNTQvNC8xCmYgNTUvMS8xIDU3LzIvMSA1OC8zLzEgNTYvNC8xCmYgNTcvMS8xIDU5LzIvMSA2MC8zLzEgNTgvNC8xCmYgNTkvMS8xIDYxLzIvMSA2Mi8zLzEgNjAvNC8xCmYgNjEvMS8xIDYzLzIvMSA2NC8zLzEgNjIvNC8xCmYgNjMvMS8xIDY1LzIvMSA2Ni8zLzEgNjQvNC8xCmYgNjcvMS8xIDY4LzIvMSA2OS8zLzEgNzAvNC8xCmYgNjgvMS8xIDcxLzIvMSA3Mi8zLzEgNjkvNC8xCmYgNzEvMS8xIDczLzIvMSA3NC8zLzEgNzIvNC8xCmYgNzMvMS8xIDc1LzIvMSA3Ni8zLzEgNzQvNC8xCmYgNzUvMS8xIDc3LzIvMSA3OC8zLzEgNzYvNC8xCmYgNzcvMS8xIDc5LzIvMSA4MC8zLzEgNzgvNC8xCmYgNzkvMS8xIDgxLzIvMSA4Mi8zLzEgODAvNC8xCmYgODEvMS8xIDgzLzIvMSA4NC8zLzEgODIvNC8xCmYgODMvMS8xIDg1LzIvMSA4Ni8zLzEgODQvNC8xCmYgODUvMS8xIDg3LzIvMSA4OC8zLzEgODYvNC8xCmYgODkvMS8xIDkwLzIvMSA5MS8zLzEgOTIvNC8xCmYgOTAvMS8xIDkzLzIvMSA5NC8zLzEgOTEvNC8xCmYgOTMvMS8xIDk1LzIvMSA5Ni8zLzEgOTQvNC8xCmYgOTUvMS8xIDk3LzIvMSA5OC8zLzEgOTYvNC8xCmYgOTcvMS8xIDk5LzIvMSAxMDAvMy8xIDk4LzQvMQpmIDk5LzEvMSAxMDEvMi8xIDEwMi8zLzEgMTAwLzQvMQpmIDEwMS8xLzEgMTAzLzIvMSAxMDQvMy8xIDEwMi80LzEKZiAxMDMvMS8xIDEwNS8yLzEgMTA2LzMvMSAxMDQvNC8xCmYgMTA1LzEvMSAxMDcvMi8xIDEwOC8zLzEgMTA2LzQvMQpmIDEwNy8xLzEgMTA5LzIvMSAxMTAvMy8xIDEwOC80LzEKZiAxMTEvMS8xIDExMi8yLzEgMTEzLzMvMSAxMTQvNC8xCmYgMTEyLzEvMSAxMTUvMi8xIDExNi8zLzEgMTEzLzQvMQpmIDExNS8xLzEgMTE3LzIvMSAxMTgvMy8xIDExNi80LzEKZiAxMTcvMS8xIDExOS8yLzEgMTIwLzMvMSAxMTgvNC8xCmYgMTE5LzEvMSAxMjEvMi8xIDEyMi8zLzEgMTIwLzQvMQpmIDEyMS8xLzEgMTIzLzIvMSAxMjQvMy8xIDEyMi80LzEKZiAxMjMvMS8xIDEyNS8yLzEgMTI2LzMvMSAxMjQvNC8xCmYgMTI1LzEvMSAxMjcvMi8xIDEyOC8zLzEgMTI2LzQvMQpmIDEyNy8xLzEgMTI5LzIvMSAxMzAvMy8xIDEyOC80LzEKZiAxMjkvMS8xIDEzMS8yLzEgMTMyLzMvMSAxMzAvNC8xCmYgMTMzLzEvMSAxMzQvMi8xIDEzNS8zLzEgMTM2LzQvMQpmIDEzNC8xLzEgMTM3LzIvMSAxMzgvMy8xIDEzNS80LzEKZiAxMzcvMS8xIDEzOS8yLzEgMTQwLzMvMSAxMzgvNC8xCmYgMTM5LzEvMSAxNDEvMi8xIDE0Mi8zLzEgMTQwLzQvMQpmIDE0MS8xLzEgMTQzLzIvMSAxNDQvMy8xIDE0Mi80LzEKZiAxNDMvMS8xIDE0NS8yLzEgMTQ2LzMvMSAxNDQvNC8xCmYgMTQ1LzEvMSAxNDcvMi8xIDE0OC8zLzEgMTQ2LzQvMQpmIDE0Ny8xLzEgMTQ5LzIvMSAxNTAvMy8xIDE0OC80LzEKZiAxNDkvMS8xIDE1MS8yLzEgMTUyLzMvMSAxNTAvNC8xCmYgMTUxLzEvMSAxNTMvMi8xIDE1NC8zLzEgMTUyLzQvMQpmIDE1NS8xLzEgMTU2LzIvMSAxNTcvMy8xIDE1OC80LzEKZiAxNTYvMS8xIDE1OS8yLzEgMTYwLzMvMSAxNTcvNC8xCmYgMTU5LzEvMSAxNjEvMi8xIDE2Mi8zLzEgMTYwLzQvMQpmIDE2MS8xLzEgMTYzLzIvMSAxNjQvMy8xIDE2Mi80LzEKZiAxNjMvMS8xIDE2NS8yLzEgMTY2LzMvMSAxNjQvNC8xCmYgMTY1LzEvMSAxNjcvMi8xIDE2OC8zLzEgMTY2LzQvMQpmIDE2Ny8xLzEgMTY5LzIvMSAxNzAvMy8xIDE2OC80LzEKZiAxNjkvMS8xIDE3MS8yLzEgMTcyLzMvMSAxNzAvNC8xCmYgMTcxLzEvMSAxNzMvMi8xIDE3NC8zLzEgMTcyLzQvMQpmIDE3My8xLzEgMTc1LzIvMSAxNzYvMy8xIDE3NC80LzEKZiAxNzcvMS8xIDE3OC8yLzEgMTc5LzMvMSAxODAvNC8xCmYgMTc4LzEvMSAxODEvMi8xIDE4Mi8zLzEgMTc5LzQvMQpmIDE4MS8xLzEgMTgzLzIvMSAxODQvMy8xIDE4Mi80LzEKZiAxODMvMS8xIDE4NS8yLzEgMTg2LzMvMSAxODQvNC8xCmYgMTg1LzEvMSAxODcvMi8xIDE4OC8zLzEgMTg2LzQvMQpmIDE4Ny8xLzEgMTg5LzIvMSAxOTAvMy8xIDE4OC80LzEKZiAxODkvMS8xIDE5MS8yLzEgMTkyLzMvMSAxOTAvNC8xCmYgMTkxLzEvMSAxOTMvMi8xIDE5NC8zLzEgMTkyLzQvMQpmIDE5My8xLzEgMTk1LzIvMSAxOTYvMy8xIDE5NC80LzEKZiAxOTUvMS8xIDE5Ny8yLzEgMTk4LzMvMSAxOTYvNC8xCmYgMTk5LzEvMSAyMDAvMi8xIDIwMS8zLzEgMjAyLzQvMQpmIDIwMC8xLzEgMjAzLzIvMSAyMDQvMy8xIDIwMS80LzEKZiAyMDMvMS8xIDIwNS8yLzEgMjA2LzMvMSAyMDQvNC8xCmYgMjA1LzEvMSAyMDcvMi8xIDIwOC8zLzEgMjA2LzQvMQpmIDIwNy8xLzEgMjA5LzIvMSAyMTAvMy8xIDIwOC80LzEKZiAyMDkvMS8xIDIxMS8yLzEgMjEyLzMvMSAyMTAvNC8xCmYgMjExLzEvMSAyMTMvMi8xIDIxNC8zLzEgMjEyLzQvMQpmIDIxMy8xLzEgMjE1LzIvMSAyMTYvMy8xIDIxNC80LzEKZiAyMTUvMS8xIDIxNy8yLzEgMjE4LzMvMSAyMTYvNC8xCmYgMjE3LzEvMSAyMTkvMi8xIDIyMC8zLzEgMjE4LzQvMQpmIDIyMS8xLzEgMjIyLzIvMSAyMjMvMy8xIDIyNC80LzEKZiAyMjIvMS8xIDIyNS8yLzEgMjI2LzMvMSAyMjMvNC8xCmYgMjI1LzEvMSAyMjcvMi8xIDIyOC8zLzEgMjI2LzQvMQpmIDIyNy8xLzEgMjI5LzIvMSAyMzAvMy8xIDIyOC80LzEKZiAyMjkvMS8xIDIzMS8yLzEgMjMyLzMvMSAyMzAvNC8xCmYgMjMxLzEvMSAyMzMvMi8xIDIzNC8zLzEgMjMyLzQvMQpmIDIzMy8xLzEgMjM1LzIvMSAyMzYvMy8xIDIzNC80LzEKZiAyMzUvMS8xIDIzNy8yLzEgMjM4LzMvMSAyMzYvNC8xCmYgMjM3LzEvMSAyMzkvMi8xIDI0MC8zLzEgMjM4LzQvMQpmIDIzOS8xLzEgMjQxLzIvMSAyNDIvMy8xIDI0MC80LzEKCmcgbWVzaF8wMDAyCmYgMS81LzEgMi82LzEgMy83LzEgNC84LzEKZiAyLzkvMSA1LzEwLzEgNi8xMS8xIDMvMTIvMQpmIDUvOS8xIDcvMTAvMSA4LzExLzEgNi8xMi8xCmYgNy85LzEgOS8xMC8xIDEwLzExLzEgOC8xMi8xCmYgOS85LzEgMTEvMTAvMSAxMi8xMS8xIDEwLzEyLzEKZiAxMS85LzEgMTMvMTAvMSAxNC8xMS8xIDEyLzEyLzEKZiAxMy85LzEgMTUvMTAvMSAxNi8xMS8xIDE0LzEyLzEKZiAxNS85LzEgMTcvMTAvMSAxOC8xMS8xIDE2LzEyLzEKZiAxNy85LzEgMTkvMTAvMSAyMC8xMS8xIDE4LzEyLzEKZiAxOS8xMy8xIDIxLzE0LzEgMjIvMTUvMSAyMC8xNi8xCmYgMjMvMTcvMSAyNC8xOC8xIDI1LzE5LzEgMjYvMjAvMQpmIDI0LzEvMSAyNy8yLzEgMjgvMy8xIDI1LzQvMQpmIDI3LzEvMSAyOS8yLzEgMzAvMy8xIDI4LzQvMQpmIDI5LzEvMSAzMS8yLzEgMzIvMy8xIDMwLzQvMQpmIDMxLzEvMSAzMy8yLzEgMzQvMy8xIDMyLzQvMQpmIDMzLzEvMSAzNS8yLzEgMzYvMy8xIDM0LzQvMQpmIDM1LzEvMSAzNy8yLzEgMzgvMy8xIDM2LzQvMQpmIDM3LzEvMSAzOS8yLzEgNDAvMy8xIDM4LzQvMQpmIDM5LzEvMSA0MS8yLzEgNDIvMy8xIDQwLzQvMQpmIDQxLzIxLzEgNDMvMjIvMSA0NC8yMy8xIDQyLzI0LzEKZiA0NS8xLzEgNDYvMi8xIDQ3LzMvMSA0OC80LzEKZiA0Ni8xLzEgNDkvMi8xIDUwLzMvMSA0Ny80LzEKZiA0OS8xLzEgNTEvMi8xIDUyLzMvMSA1MC80LzEKZiA1MS8xLzEgNTMvMi8xIDU0LzMvMSA1Mi80LzEKZiA1My8xLzEgNTUvMi8xIDU2LzMvMSA1NC80LzEKZiA1NS8xLzEgNTcvMi8xIDU4LzMvMSA1Ni80LzEKZiA1Ny8xLzEgNTkvMi8xIDYwLzMvMSA1OC80LzEKZiA1OS8xLzEgNjEvMi8xIDYyLzMvMSA2MC80LzEKZiA2MS8xLzEgNjMvMi8xIDY0LzMvMSA2Mi80LzEKZiA2My8yMS8xIDY1LzIyLzEgNjYvMjMvMSA2NC8yNC8xCmYgNjcvMS8xIDY4LzIvMSA2OS8zLzEgNzAvNC8xCmYgNjgvMS8xIDcxLzIvMSA3Mi8zLzEgNjkvNC8xCmYgNzEvMS8xIDczLzIvMSA3NC8zLzEgNzIvNC8xCmYgNzMvMS8xIDc1LzIvMSA3Ni8zLzEgNzQvNC8xCmYgNzUvMS8xIDc3LzIvMSA3OC8zLzEgNzYvNC8xCmYgNzcvMS8xIDc5LzIvMSA4MC8zLzEgNzgvNC8xCmYgNzkvMS8xIDgxLzIvMSA4Mi8zLzEgODAvNC8xCmYgODEvMS8xIDgzLzIvMSA4NC8zLzEgODIvNC8xCmYgODMvMS8xIDg1LzIvMSA4Ni8zLzEgODQvNC8xCmYgODUvMS8xIDg3LzIvMSA4OC8zLzEgODYvNC8xCmYgODkvMTcvMSA5MC8xOC8xIDkxLzE5LzEgOTIvMjAvMQpmIDkwLzEvMSA5My8yLzEgOTQvMy8xIDkxLzQvMQpmIDkzLzEvMSA5NS8yLzEgOTYvMy8xIDk0LzQvMQpmIDk1LzEvMSA5Ny8yLzEgOTgvMy8xIDk2LzQvMQpmIDk3LzEvMSA5OS8yLzEgMTAwLzMvMSA5OC80LzEKZiA5OS8xLzEgMTAxLzIvMSAxMDIvMy8xIDEwMC80LzEKZiAxMDEvMS8xIDEwMy8yLzEgMTA0LzMvMSAxMDIvNC8xCmYgMTAzLzEvMSAxMDUvMi8xIDEwNi8zLzEgMTA0LzQvMQpmIDEwNS8xLzEgMTA3LzIvMSAxMDgvMy8xIDEwNi80LzEKZiAxMDcvMS8xIDEwOS8yLzEgMTEwLzMvMSAxMDgvNC8xCmYgMTExLzE3LzEgMTEyLzE4LzEgMTEzLzE5LzEgMTE0LzIwLzEKZiAxMTIvMS8xIDExNS8yLzEgMTE2LzMvMSAxMTMvNC8xCmYgMTE1LzEvMSAxMTcvMi8xIDExOC8zLzEgMTE2LzQvMQpmIDExNy8xLzEgMTE5LzIvMSAxMjAvMy8xIDExOC80LzEKZiAxMTkvMS8xIDEyMS8yLzEgMTIyLzMvMSAxMjAvNC8xCmYgMTIxLzEvMSAxMjMvMi8xIDEyNC8zLzEgMTIyLzQvMQpmIDEyMy8xLzEgMTI1LzIvMSAxMjYvMy8xIDEyNC80LzEKZiAxMjUvMS8xIDEyNy8yLzEgMTI4LzMvMSAxMjYvNC8xCmYgMTI3LzEvMSAxMjkvMi8xIDEzMC8zLzEgMTI4LzQvMQpmIDEyOS8xLzEgMTMxLzIvMSAxMzIvMy8xIDEzMC80LzEKZiAxMzMvMTcvMSAxMzQvMTgvMSAxMzUvMTkvMSAxMzYvMjAvMQpmIDEzNC8xLzEgMTM3LzIvMSAxMzgvMy8xIDEzNS80LzEKZiAxMzcvMS8xIDEzOS8yLzEgMTQwLzMvMSAxMzgvNC8xCmYgMTM5LzEvMSAxNDEvMi8xIDE0Mi8zLzEgMTQwLzQvMQpmIDE0MS8xLzEgMTQzLzIvMSAxNDQvMy8xIDE0Mi80LzEKZiAxNDMvMS8xIDE0NS8yLzEgMTQ2LzMvMSAxNDQvNC8xCmYgMTQ1LzEvMSAxNDcvMi8xIDE0OC8zLzEgMTQ2LzQvMQpmIDE0Ny8xLzEgMTQ5LzIvMSAxNTAvMy8xIDE0OC80LzEKZiAxNDkvMS8xIDE1MS8yLzEgMTUyLzMvMSAxNTAvNC8xCmYgMTUxLzEvMSAxNTMvMi8xIDE1NC8zLzEgMTUyLzQvMQpmIDE1NS8xLzEgMTU2LzIvMSAxNTcvMy8xIDE1OC80LzEKZiAxNTYvMS8xIDE1OS8yLzEgMTYwLzMvMSAxNTcvNC8xCmYgMTU5LzEvMSAxNjEvMi8xIDE2Mi8zLzEgMTYwLzQvMQpmIDE2MS8xLzEgMTYzLzIvMSAxNjQvMy8xIDE2Mi80LzEKZiAxNjMvMS8xIDE2NS8yLzEgMTY2LzMvMSAxNjQvNC8xCmYgMTY1LzEvMSAxNjcvMi8xIDE2OC8zLzEgMTY2LzQvMQpmIDE2Ny8xLzEgMTY5LzIvMSAxNzAvMy8xIDE2OC80LzEKZiAxNjkvMS8xIDE3MS8yLzEgMTcyLzMvMSAxNzAvNC8xCmYgMTcxLzEvMSAxNzMvMi8xIDE3NC8zLzEgMTcyLzQvMQpmIDE3My8yMS8xIDE3NS8yMi8xIDE3Ni8yMy8xIDE3NC8yNC8xCmYgMTc3LzEvMSAxNzgvMi8xIDE3OS8zLzEgMTgwLzQvMQpmIDE3OC8xLzEgMTgxLzIvMSAxODIvMy8xIDE3OS80LzEKZiAxODEvMS8xIDE4My8yLzEgMTg0LzMvMSAxODIvNC8xCmYgMTgzLzEvMSAxODUvMi8xIDE4Ni8zLzEgMTg0LzQvMQpmIDE4NS8xLzEgMTg3LzIvMSAxODgvMy8xIDE4Ni80LzEKZiAxODcvMS8xIDE4OS8yLzEgMTkwLzMvMSAxODgvNC8xCmYgMTg5LzEvMSAxOTEvMi8xIDE5Mi8zLzEgMTkwLzQvMQpmIDE5MS8xLzEgMTkzLzIvMSAxOTQvMy8xIDE5Mi80LzEKZiAxOTMvMS8xIDE5NS8yLzEgMTk2LzMvMSAxOTQvNC8xCmYgMTk1LzIxLzEgMTk3LzIyLzEgMTk4LzIzLzEgMTk2LzI0LzEKZiAxOTkvMTcvMSAyMDAvMTgvMSAyMDEvMTkvMSAyMDIvMjAvMQpmIDIwMC8xLzEgMjAzLzIvMSAyMDQvMy8xIDIwMS80LzEKZiAyMDMvMS8xIDIwNS8yLzEgMjA2LzMvMSAyMDQvNC8xCmYgMjA1LzEvMSAyMDcvMi8xIDIwOC8zLzEgMjA2LzQvMQpmIDIwNy8xLzEgMjA5LzIvMSAyMTAvMy8xIDIwOC80LzEKZiAyMDkvMS8xIDIxMS8yLzEgMjEyLzMvMSAyMTAvNC8xCmYgMjExLzEvMSAyMTMvMi8xIDIxNC8zLzEgMjEyLzQvMQpmIDIxMy8xLzEgMjE1LzIvMSAyMTYvMy8xIDIxNC80LzEKZiAyMTUvMS8xIDIxNy8yLzEgMjE4LzMvMSAyMTYvNC8xCmYgMjE3LzEvMSAyMTkvMi8xIDIyMC8zLzEgMjE4LzQvMQpmIDIyMS8yNS8xIDIyMi8yNi8xIDIyMy8yNy8xIDIyNC8yOC8xCmYgMjIyLzI5LzEgMjI1LzMwLzEgMjI2LzMxLzEgMjIzLzMyLzEKZiAyMjUvMjkvMSAyMjcvMzAvMSAyMjgvMzEvMSAyMjYvMzIvMQpmIDIyNy8yOS8xIDIyOS8zMC8xIDIzMC8zMS8xIDIyOC8zMi8xCmYgMjI5LzI5LzEgMjMxLzMwLzEgMjMyLzMxLzEgMjMwLzMyLzEKZiAyMzEvMjkvMSAyMzMvMzAvMSAyMzQvMzEvMSAyMzIvMzIvMQpmIDIzMy8yOS8xIDIzNS8zMC8xIDIzNi8zMS8xIDIzNC8zMi8xCmYgMjM1LzI5LzEgMjM3LzMwLzEgMjM4LzMxLzEgMjM2LzMyLzEKZiAyMzcvMjkvMSAyMzkvMzAvMSAyNDAvMzEvMSAyMzgvMzIvMQpmIDIzOS8zMy8xIDI0MS8zNC8xIDI0Mi8zNS8xIDI0MC8zNi8xCgpnIG1lc2hfMDAwMwpmIDI3LzM3LzEgMjkvMzgvMSAzMC8zOS8xIDI4LzQwLzEKZiAyOS8zNy8xIDMxLzM4LzEgMzIvMzkvMSAzMC80MC8xCmYgMzEvNDEvMSAzMy80Mi8xIDM0LzQzLzEgMzIvNDQvMQpmIDQ5LzM3LzEgNTEvMzgvMSA1Mi8zOS8xIDUwLzQwLzEKZiA1MS80MS8xIDUzLzQyLzEgNTQvNDMvMSA1Mi80NC8xCmYgNTMvMzcvMSA1NS8zOC8xIDU2LzM5LzEgNTQvNDAvMQpmIDU3LzM3LzEgNTkvMzgvMSA2MC8zOS8xIDU4LzQwLzEKZiA3My8zNy8xIDc1LzM4LzEgNzYvMzkvMSA3NC80MC8xCmYgNzkvMzcvMSA4MS8zOC8xIDgyLzM5LzEgODAvNDAvMQpmIDgxLzM3LzEgODMvMzgvMSA4NC8zOS8xIDgyLzQwLzEKZiA5My8zNy8xIDk1LzM4LzEgOTYvMzkvMSA5NC80MC8xCmYgMTAxLzM3LzEgMTAzLzM4LzEgMTA0LzM5LzEgMTAyLzQwLzEKZiAxMDMvNDEvMSAxMDUvNDIvMSAxMDYvNDMvMSAxMDQvNDQvMQpmIDEwNS8zNy8xIDEwNy8zOC8xIDEwOC8zOS8xIDEwNi80MC8xCmYgMTEyLzM3LzEgMTE1LzM4LzEgMTE2LzM5LzEgMTEzLzQwLzEKZiAxMTUvMzcvMSAxMTcvMzgvMSAxMTgvMzkvMSAxMTYvNDAvMQpmIDExNy80MS8xIDExOS80Mi8xIDEyMC80My8xIDExOC80NC8xCmYgMTE5LzM3LzEgMTIxLzM4LzEgMTIyLzM5LzEgMTIwLzQwLzEKZiAxMjMvMS8xIDEyNS8yLzEgMTI2LzMvMSAxMjQvNC8xCmYgMTI1LzM3LzEgMTI3LzM4LzEgMTI4LzM5LzEgMTI2LzQwLzEKZiAxMzQvMzcvMSAxMzcvMzgvMSAxMzgvMzkvMSAxMzUvNDAvMQpmIDEzNy80MS8xIDEzOS80Mi8xIDE0MC80My8xIDEzOC80NC8xCmYgMTM5LzQxLzEgMTQxLzQyLzEgMTQyLzQzLzEgMTQwLzQ0LzEKZiAxNTYvMzcvMSAxNTkvMzgvMSAxNjAvMzkvMSAxNTcvNDAvMQpmIDE1OS8zNy8xIDE2MS8zOC8xIDE2Mi8zOS8xIDE2MC80MC8xCmYgMTg1LzM3LzEgMTg3LzM4LzEgMTg4LzM5LzEgMTg2LzQwLzEKZiAxODcvMzcvMSAxODkvMzgvMSAxOTAvMzkvMSAxODgvNDAvMQpmIDE4OS8zNy8xIDE5MS8zOC8xIDE5Mi8zOS8xIDE5MC80MC8xCmYgMTkxLzM3LzEgMTkzLzM4LzEgMTk0LzM5LzEgMTkyLzQwLzEKZiAyMDUvMzcvMSAyMDcvMzgvMSAyMDgvMzkvMSAyMDYvNDAvMQpmIDIwNy8zNy8xIDIwOS8zOC8xIDIxMC8zOS8xIDIwOC80MC8xCmYgMjA5LzQxLzEgMjExLzQyLzEgMjEyLzQzLzEgMjEwLzQ0LzEKZiAyMTEvNDEvMSAyMTMvNDIvMSAyMTQvNDMvMSAyMTIvNDQvMQoKZyBtZXNoXzAwMDQKZiAxOS80NS8xIDIxLzQ2LzEgMjIvNDcvMSAyMC80OC8xCmYgNDUvNDUvMSA0Ni80Ni8xIDQ3LzQ3LzEgNDgvNDgvMQpmIDQ2LzQ5LzEgNDkvNTAvMSA1MC81MS8xIDQ3LzUyLzEKZiA0OS81My8xIDUxLzU0LzEgNTIvNTUvMSA1MC81Ni8xCmYgNTEvNTMvMSA1My81NC8xIDU0LzU1LzEgNTIvNTYvMQpmIDUzLzU3LzEgNTUvNTgvMSA1Ni81OS8xIDU0LzYwLzEKZiA1NS81Ny8xIDU3LzU4LzEgNTgvNTkvMSA1Ni82MC8xCmYgNTcvNTMvMSA1OS81NC8xIDYwLzU1LzEgNTgvNTYvMQpmIDU5LzUzLzEgNjEvNTQvMSA2Mi81NS8xIDYwLzU2LzEKZiA2OC82MS8xIDcxLzYyLzEgNzIvNjMvMSA2OS82NC8xCmYgNzEvNjUvMSA3My82Ni8xIDc0LzY3LzEgNzIvNjgvMQpmIDczLzY1LzEgNzUvNjYvMSA3Ni82Ny8xIDc0LzY4LzEKZiA3NS82NS8xIDc3LzY2LzEgNzgvNjcvMSA3Ni82OC8xCmYgNzcvNjUvMSA3OS82Ni8xIDgwLzY3LzEgNzgvNjgvMQpmIDc5LzY1LzEgODEvNjYvMSA4Mi82Ny8xIDgwLzY4LzEKZiA4MS82NS8xIDgzLzY2LzEgODQvNjcvMSA4Mi82OC8xCmYgODMvNjkvMSA4NS83MC8xIDg2LzcxLzEgODQvNzIvMQpmIDkwLzYxLzEgOTMvNjIvMSA5NC82My8xIDkxLzY0LzEKZiA5My82NS8xIDk1LzY2LzEgOTYvNjcvMSA5NC82OC8xCmYgOTUvNjUvMSA5Ny82Ni8xIDk4LzY3LzEgOTYvNjgvMQpmIDk3LzY1LzEgOTkvNjYvMSAxMDAvNjcvMSA5OC82OC8xCmYgOTkvNjUvMSAxMDEvNjYvMSAxMDIvNjcvMSAxMDAvNjgvMQpmIDEwMS82NS8xIDEwMy82Ni8xIDEwNC82Ny8xIDEwMi82OC8xCmYgMTAzLzY1LzEgMTA1LzY2LzEgMTA2LzY3LzEgMTA0LzY4LzEKZiAxMDUvNzMvMSAxMDcvNzQvMSAxMDgvNzUvMSAxMDYvNzYvMQpmIDEwNy80NS8xIDEwOS80Ni8xIDExMC80Ny8xIDEwOC80OC8xCmYgMTEyLzYxLzEgMTE1LzYyLzEgMTE2LzYzLzEgMTEzLzY0LzEKZiAxMTUvNjUvMSAxMTcvNjYvMSAxMTgvNjcvMSAxMTYvNjgvMQpmIDExNy82NS8xIDExOS82Ni8xIDEyMC82Ny8xIDExOC82OC8xCmYgMTE5LzY1LzEgMTIxLzY2LzEgMTIyLzY3LzEgMTIwLzY4LzEKZiAxMjEvNjUvMSAxMjMvNjYvMSAxMjQvNjcvMSAxMjIvNjgvMQpmIDEyMy82NS8xIDEyNS82Ni8xIDEyNi82Ny8xIDEyNC82OC8xCmYgMTI1LzY1LzEgMTI3LzY2LzEgMTI4LzY3LzEgMTI2LzY4LzEKZiAxMjcvNjkvMSAxMjkvNzAvMSAxMzAvNzEvMSAxMjgvNzIvMQpmIDEzNC83Ny8xIDEzNy83OC8xIDEzOC83OS8xIDEzNS84MC8xCmYgMTM3LzY1LzEgMTM5LzY2LzEgMTQwLzY3LzEgMTM4LzY4LzEKZiAxMzkvNjUvMSAxNDEvNjYvMSAxNDIvNjcvMSAxNDAvNjgvMQpmIDE0MS82NS8xIDE0My82Ni8xIDE0NC82Ny8xIDE0Mi82OC8xCmYgMTQzLzY1LzEgMTQ1LzY2LzEgMTQ2LzY3LzEgMTQ0LzY4LzEKZiAxNDUvNjUvMSAxNDcvNjYvMSAxNDgvNjcvMSAxNDYvNjgvMQpmIDE0Ny82NS8xIDE0OS82Ni8xIDE1MC82Ny8xIDE0OC82OC8xCmYgMTQ5LzY5LzEgMTUxLzcwLzEgMTUyLzcxLzEgMTUwLzcyLzEKZiAxNTYvNzcvMSAxNTkvNzgvMSAxNjAvNzkvMSAxNTcvODAvMQpmIDE1OS82NS8xIDE2MS82Ni8xIDE2Mi82Ny8xIDE2MC82OC8xCmYgMTYxLzY1LzEgMTYzLzY2LzEgMTY0LzY3LzEgMTYyLzY4LzEKZiAxNjMvNjUvMSAxNjUvNjYvMSAxNjYvNjcvMSAxNjQvNjgvMQpmIDE2NS82NS8xIDE2Ny82Ni8xIDE2OC82Ny8xIDE2Ni82OC8xCmYgMTY3LzY1LzEgMTY5LzY2LzEgMTcwLzY3LzEgMTY4LzY4LzEKZiAxNjkvNjUvMSAxNzEvNjYvMSAxNzIvNjcvMSAxNzAvNjgvMQpmIDE3MS83My8xIDE3My83NC8xIDE3NC83NS8xIDE3Mi83Ni8xCmYgMTc3LzQ1LzEgMTc4LzQ2LzEgMTc5LzQ3LzEgMTgwLzQ4LzEKZiAxNzgvODEvMSAxODEvODIvMSAxODIvODMvMSAxNzkvODQvMQpmIDE4MS84NS8xIDE4My84Ni8xIDE4NC84Ny8xIDE4Mi84OC8xCmYgMTgzLzg5LzEgMTg1LzkwLzEgMTg2LzkxLzEgMTg0LzkyLzEKZiAxODUvODkvMSAxODcvOTAvMSAxODgvOTEvMSAxODYvOTIvMQpmIDE4Ny84NS8xIDE4OS84Ni8xIDE5MC84Ny8xIDE4OC84OC8xCmYgMTg5Lzg5LzEgMTkxLzkwLzEgMTkyLzkxLzEgMTkwLzkyLzEKZiAxOTEvODkvMSAxOTMvOTAvMSAxOTQvOTEvMSAxOTIvOTIvMQpmIDE5My85My8xIDE5NS85NC8xIDE5Ni85NS8xIDE5NC85Ni8xCmYgMjEzLzQ1LzEgMjE1LzQ2LzEgMjE2LzQ3LzEgMjE0LzQ4LzEKDQo=</ImportMesh>
+  <InternalTexture assetPath="Assets/Tiled2Unity/Textures/yx's tileset1.png" materialName="yx's tileset1" usesDepthShaders="true" />
+</Tiled2Unity>
